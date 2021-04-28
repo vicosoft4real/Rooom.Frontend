@@ -55,3 +55,24 @@ npm test
 ## More
 
 You can view full document on our [official website](https://pro.ant.design). And welcome any feedback in our [github](https://github.com/ant-design/ant-design-pro).
+
+# The Important Project Structure
+ ```config (routing)
+ ```mock
+    ```search.ts (for search mock)
+ ```public
+ -src
+  ```models
+      ```search.ts (search model)
+  ```pages
+    ```Services.tsx 
+    ```Services.less
+```services
+  --searchService.ts (for sending request to api)
+ -utils
+    ```request.ts
+    
+# How to run 
+    run yarn to install dependency
+    run yarn start
+
